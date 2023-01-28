@@ -1,8 +1,9 @@
 {
     "version":2,
-    "build":[
+    "builds":[
         {
-            "buildCommand": "next build"
+            "src":"*.js",
+            "use":"@vercel/node"
         }
     ],
     
